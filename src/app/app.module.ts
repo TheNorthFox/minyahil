@@ -6,12 +6,20 @@ import { AppComponent } from './app.component';
 import { HomeComponent } from './home/home.component';
 import { ReactiveFormsModule } from '@angular/forms';
 import { ResumeComponent } from './resume/resume.component';
+import { ContactComponent } from './contact/contact.component';
+import { FooterComponent } from './footer/footer.component';
+import { ProjectComponent } from './project/project.component';
+import { AboutComponent } from './about/about.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     HomeComponent,
-    ResumeComponent
+    ResumeComponent,
+    ContactComponent,
+    FooterComponent,
+    ProjectComponent,
+    AboutComponent
   ],
   imports: [
     BrowserModule,

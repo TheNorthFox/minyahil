@@ -17,7 +17,7 @@ export class ResumeComponent {
       restoreViewStateOnLoad: false
     });
     viewer.addDefaultPanels();
-    viewer.open("assets/files/resume.pdf");
+    viewer.open("assets/files/resume_u.pdf");
   }
 
 }
